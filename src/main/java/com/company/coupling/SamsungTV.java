@@ -1,6 +1,7 @@
 package com.company.coupling;
 
 public class SamsungTV {
+	//메소드 시그니처 
 	public void powerOn() {
 		System.out.println("SamsungTV ===> 전원 켠다.");
 	}

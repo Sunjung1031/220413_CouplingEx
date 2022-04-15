@@ -8,12 +8,12 @@ public class SamsungTV implements TV{
 	}
 
 	@Override
-	public void volumnUp() {
+	public void volumeUp() {
 		System.out.println("SamsungTV ===> 볼륨을 올린다.");
 	}
 
 	@Override
-	public void volumnDown() {
+	public void volumeDown() {
 		System.out.println("SamsungTV ===> 볼륨을 내린다.");
 	}
 

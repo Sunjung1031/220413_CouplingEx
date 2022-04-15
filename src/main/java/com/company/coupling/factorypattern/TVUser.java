@@ -8,11 +8,10 @@ public class TVUser {
 		TV tv = (TV)factory.getBean(args[0]);
 		
 		tv.powerOn();
-		tv.volumnUp();
-		tv.volumnDown();
+		tv.volumeUp();
+		tv.volumeDown();
 		tv.powerDown();
 		
 	}
-
 
 }

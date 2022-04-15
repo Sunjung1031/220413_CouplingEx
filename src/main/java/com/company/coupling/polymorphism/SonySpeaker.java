@@ -1,6 +1,6 @@
 package com.company.coupling.polymorphism;
 
-public class SonySpeaker {
+public class SonySpeaker implements Speaker {
 	//생성자 
 	public SonySpeaker() {
 		System.out.println("===>SonySpeaker 객체 생성");
